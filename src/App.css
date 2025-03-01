@@ -1,0 +1,461 @@
+/* General body styling with gradient background */
+body {
+  background: linear-gradient(135deg, #000, #1a1a1a) !important;
+  color: #fff;
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Horizontal rule with gradient border */
+hr {
+  border: none;
+  height: 4px;
+  background: linear-gradient(90deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+  width: 100%;
+  margin: 20px 0;
+}
+
+/* Section 1 button styling */
+.section-1 button {
+  background: linear-gradient(45deg, #ff0000, #ff7300);
+  width: 100%;
+  border: none;
+  padding: 15px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.section-1 button:hover {
+  background: linear-gradient(45deg, #ff7300, #ff0000);
+}
+
+/* Section 1 button text styling */
+.section1-btn {
+  text-shadow: 2px 2px 5px rgba(246, 241, 241, 0.8);
+  font-size: 80px;
+  font-family: 'Times New Roman', Times, serif;
+  border-radius: 35px;
+  background: linear-gradient(135deg, #ff0000, #ff7300);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: yellow;
+}
+
+/* Board styling */
+.board {
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 33px;
+  color: #fff;
+  text-align: center;
+  margin: 20px 0;
+}
+
+/* Month and year table styling */
+.monthYrTbl {
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+}
+
+/* Game container styling with vibrant gradients */
+.game_column {
+  border-radius: 15px;
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+  border: 3px outset #00030e;
+  padding: 1rem;
+  margin: 10px auto;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.game_column:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.5);
+}
+
+.game-list {
+  background-color: black !important;
+}
+
+.game_column button {
+  width: 40px;
+  height: 26px;
+  border-radius: 50px;
+  background: linear-gradient(45deg, #ff0000, #ff7300);
+  color: #fff;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 18px;
+  text-align: center;
+  align-items: center;
+  padding: 0rem;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.game_column button:hover {
+  background: linear-gradient(45deg, #ff7300, #ff0000);
+}
+
+/* Custom padding */
+.custom {
+  padding-left: 36%;
+}
+
+/* Column styling with gradient backgrounds */
+.column {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0;
+  box-sizing: border-box;
+  background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+  border-radius: 15px;
+  padding: 1rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.column:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+}
+
+.column-gap {
+  width: 10px;
+}
+
+.column-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+  padding: 0.3rem 0px;
+}
+
+.text-line {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.image-and-buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.image {
+  width: 56px;
+  height: 11px;
+  background-color: gray;
+}
+
+.button-left,
+.button-right {
+  width: 40px;
+  height: 26px;
+  background-color: white;
+  border: 1px solid #ddd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-right {
+  color: red;
+}
+
+/* Scrollbar styling */
+#scrollbar1::-webkit-scrollbar {
+  width: 1px !important;
+  height: 0.5rem;
+}
+
+#scrollbar1::-webkit-scrollbar-track {
+  border-radius: 8px !important;
+  background-color: transparent;
+  border: 1px solid #cacaca !important;
+}
+
+#scrollbar1::-webkit-scrollbar-thumb {
+  border-radius: 8px;
+  background-color: #cacaca;
+}
+
+/* Table styling */
+.ant-table-tbody>tr>td:first-child,
+.ant-table-thead>tr>th:first-child {
+  background-color: red;
+  color: white;
+  padding: 0rem 1rem !important;
+}
+
+.ant-table-tbody>tr>td {
+  background-color:#7f897f;
+  color: black;
+  border: 1px solid #b39c9c;
+  height: 30px;
+  line-height: 30px;
+}
+
+.ant-table-cell {
+  border-right: 1px solid black;
+}
+
+.ant-table-tbody>tr>td {
+  border-bottom: 1px solid black;
+  height: 30px;
+}
+
+.ant-table-cell {
+  padding: unset !important;
+  background-color: red;
+}
+
+.ant-table-row:nth-child(odd) {
+  background-color: red;
+}
+
+/* Links section styling */
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.links .col {
+  flex: 1 0 21%;
+  margin: 5px 0;
+}
+
+.links .col a {
+  color: white;
+  text-decoration: none;
+}
+
+.ant-table-thead>tr>td,
+.ant-table-thead th {
+  background-color: #fbc503 !important;
+  border-radius: 0px !important;
+  padding: 0rem 1rem !important;
+}
+
+.ant-table-tbody>tr>td:first-child:hover {
+  background-color: red !important;
+  color: white !important;
+}
+
+.ant-table-tbody>tr:hover>td:first-child {
+  background-color: red !important;
+  color: white !important;
+}
+
+.ant-table-content th {
+  padding: 9px 1rem !important;
+}
+
+.ant-table-content td,
+.ant-table-content tr,
+.ant-table-content th {
+  text-align: center !important;
+  text-wrap: nowrap;
+  border-right: 1px solid #ccc !important;
+}
+
+/* Footer styling */
+#month-select,
+#year-select,
+#game-select,
+#go-button {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  font-weight: bold;
+}
+
+#go-button {
+  background-color: rgb(24, 109, 237);
+  color: white;
+  cursor: pointer;
+}
+
+#go-button:hover {
+  background-color: navy;
+}
+
+/* Refresh button */
+.refreshButton {
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  border: #cd0404 4px solid;
+  background: #fff;
+  color: Red;
+  height: auto;
+  padding: 8px;
+  font-style: italic;
+  border-radius: 10px;
+  font-weight: bold;
+  color: #000;
+}
+
+/* Footer button styling */
+.footerButton button {
+  background: red;
+  width: 100%;
+  border-radius: 1rem;
+  border: 0px;
+  color: #fff;
+}
+
+.footerButton .last-button {
+  width: 32%;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+  background-color: #837e7e;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+  background-color: #837e7e;
+  border: 1px solid;
+}
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+  border-radius: 10px;
+  background-color: #c1c6c2;
+}
+
+/* Toast message styling */
+.toast-message {
+  background: red !important;
+  color: #fff !important;
+  border: 5px solid #940505;
+}
+
+.Toastify__toast-body,
+.toast-message button {
+  color: #fff !important;
+}
+
+.Toastify__progress {
+  background-color: green !important;
+}
+
+/* Blinking text animation */
+@keyframes blink {
+  2% {
+    opacity: 0;
+  }
+
+  30% {
+    opacity: 0.1;
+    color: #72ff07;
+  }
+
+  60% {
+    opacity: 0.5;
+    color: #e6ff07;
+  }
+
+  100% {
+    opacity: 1;
+    color: #ffc107;
+  }
+}
+
+.blinking-text {
+  animation: blink 1.5s infinite;
+}
+
+/* Text color animation */
+h2 {
+  font-size: 16px;
+  font-weight: bold;
+  color: transparent;
+  animation: effect 1s linear infinite;
+  text-transform: uppercase;
+}
+
+@keyframes effect {
+  0% {
+    background: linear-gradient(to left, #de2828, #410404);
+    -webkit-background-clip: text;
+  }
+
+  100% {
+    background: linear-gradient(to left, #ed1818, #df1f1f);
+    -webkit-background-clip: text;
+  }
+}
+
+/* Advertisement section styling */
+.advertisementSection .ad-section {
+  width: 92%;
+  margin: 20px auto;
+  border: 3px solid #e67e22;
+  padding: 30px;
+  border-radius: 12px;
+  text-align: center;
+  background: linear-gradient(135deg, #f6d365, #fda085);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.advertisementSection h3 {
+  color: #d35400;
+  font-size: 30px;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.advertisementSection h4 {
+  color: #2c3e50;
+  font-size: 22px;
+  margin: 10px 0;
+}
+
+.advertisementSection .ad-btn {
+  color: #fff;
+  background-color: #e74c3c;
+  border: none;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.advertisementSection .ad-btn:hover {
+  background-color: #c0392b;
+  color: #fff;
+}
+
+.fa-whatsapp {
+  background: green;
+  border-radius: 65%;
+}
+
+.fa-phone {
+  color: green;
+  box-shadow: 0px 0px 7px #fff;
+  background: #fff;
+  padding: 0.1rem;
+  border-radius: 5px;
+}
